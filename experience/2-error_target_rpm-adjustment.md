@@ -8,7 +8,7 @@
 
 สรุป
 
-slow air flow
+closed loop P/I/D
 - P Gain ใส่ค่าครึ่งหนึ่งของ target rpm error หรือ 1/4 ค่อยๆ ขยับ (เพราะมันช่วยเพิ่มหรือลดตามค่า target rpm error ถ้าใส่ P เท่ากับ target rpm error มันจะขยับทันทีเกิน target rpm error ทำให้ไฟวิ่งไล่รอบมากเกินไป)
 - D Gain ใส่ค่าเท่ากับ target rpm error หรือ น้อยกว่านิดหน่อย (D มากเกินไปรอบ target rpm error จะค้างไม่วิ่งลดลงมาที่ target rpm ไปขัดขวาง P Gain ให้ทำงานช้า)
 
